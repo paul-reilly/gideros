@@ -1,11 +1,11 @@
 
-
+includes("../lua")
 
 target("gdrexport")
     add_rules("qt.console")
     add_frameworks("QtGui", "QtCore", "QtNetwork", "QtXml")
-    add_deps("lua")
-    add_syslinks("z")
+    add_deps("gidlua")
+	add_syslinks("z")
     add_defines("DESKTOP_TOOLS")
 
     add_files("main.cpp", "GAppFormat.cpp", "Utilities.cpp", "WinRTExport.cpp",

@@ -1,7 +1,7 @@
 
 
 
-target("gideros")  ;   add_deps("gid", "lua", "pystring")
+target("gideros")  ;   add_deps("gid", "gidlua", "pystring")
     set_default(false)
     set_kind("shared")
     add_files("*.cpp")

@@ -1,7 +1,7 @@
 
 includes("../libgvfs")
 
-target("lua")  ;  add_deps("gvfs")
+target("gidlua")  ;  add_deps("gvfs")
     set_default(false)
     set_kind("shared")
     if is_plat("windows") or is_plat("mingw") then

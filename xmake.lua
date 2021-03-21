@@ -46,7 +46,7 @@ target("libs",
     {  
         kind = "phony", 
         default = false,
-        deps = { "gvfs", "lua", "gideros" }
+        deps = { "gvfs", "gidlua", "gideros" }
     }
 )
 

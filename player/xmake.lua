@@ -1,7 +1,7 @@
 add_rules("mode.debug", "mode.release")
 
 target("GiderosPlayer")
-    add_deps("gvfs", "lua", "gid", "gideros", "pystring", "gidfreetype")
+    add_deps("gvfs", "gidlua", "gid", "gideros", "pystring", "gidfreetype")
     --add_deps("2dsg")--, { configs = { opengl2 = true }})
     set_default(true)
     add_rules("qt.widgetapp")

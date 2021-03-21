@@ -5,7 +5,7 @@ target("plugin-threads")
     set_kind("shared")
     add_rules("gideros_plugin")
     set_basename("threads")
-    add_deps("lua", "gideros", "gvfs", "gid" )
+    add_deps("gidlua", "gideros", "gvfs", "gid" )
     
     add_files("source/*.cpp",
         "../lfs/source/lfs.cpp",
